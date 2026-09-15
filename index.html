@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="명절백과 개인정보 처리방침">
+  <title>명절백과 개인정보 처리방침</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f2e8;
+      --card: #fffdf8;
+      --text: #211d18;
+      --secondary: #6e655c;
+      --accent: #9f4f21;
+      --line: #e5dbcd;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #181511;
+        --card: #211d18;
+        --text: #f6efe5;
+        --secondary: #c3b8aa;
+        --accent: #efa56f;
+        --line: #3b332b;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      line-height: 1.72;
+    }
+    main { width: min(760px, calc(100% - 40px)); margin: 0 auto; padding: 72px 0 96px; }
+    header { margin-bottom: 32px; }
+    .mark {
+      width: 64px;
+      height: 64px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 22px;
+      border-radius: 50%;
+      background: #ecc56b;
+      color: #9f4f21;
+      font-size: 31px;
+      font-weight: 800;
+    }
+    h1 { margin: 0 0 8px; font-size: clamp(32px, 6vw, 48px); line-height: 1.18; letter-spacing: -0.035em; }
+    h2 { margin: 34px 0 10px; font-size: 21px; letter-spacing: -0.015em; }
+    p, li { font-size: 17px; }
+    .lead { margin: 0; color: var(--secondary); font-size: 19px; }
+    .card { padding: 8px 30px 32px; border: 1px solid var(--line); border-radius: 24px; background: var(--card); }
+    ul { padding-left: 22px; }
+    a { color: var(--accent); text-underline-offset: 3px; }
+    .updated { margin-top: 34px; color: var(--secondary); font-size: 14px; }
+    .english { margin-top: 28px; }
+    @media (max-width: 560px) {
+      main { width: min(100% - 28px, 760px); padding-top: 40px; }
+      .card { padding: 4px 20px 26px; border-radius: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="mark" aria-hidden="true">●</div>
+      <h1>명절백과 개인정보 처리방침</h1>
+      <p class="lead">촌수부터 호칭까지 한 번에</p>
+    </header>
+
+    <section class="card" aria-labelledby="privacy-ko">
+      <h2 id="privacy-ko">1. 수집하는 개인정보</h2>
+      <p>명절백과는 이용자의 개인정보를 수집, 저장 또는 외부로 전송하지 않습니다. 회원가입과 로그인이 없습니다.</p>
+
+      <h2>2. 가족 관계 정보</h2>
+      <p>호칭을 찾기 위해 선택한 가족 관계는 기기 안에서만 처리됩니다. 앱은 이 정보를 서버로 보내거나 영구적으로 저장하지 않습니다.</p>
+
+      <h2>3. 제3자 서비스</h2>
+      <p>앱에는 광고, 이용 분석, 추적 도구, 타사 로그인 및 인앱결제가 포함되어 있지 않습니다.</p>
+
+      <h2>4. 기기 기능 사용</h2>
+      <p>인사말 복사 기능은 이용자가 선택한 문구를 기기의 클립보드에 저장합니다. 결과 공유 기능은 iOS 공유 시트를 사용하며, 이용자가 직접 공유 대상을 선택합니다.</p>
+
+      <h2>5. 어린이의 개인정보</h2>
+      <p>앱은 어린이를 포함한 어떤 이용자의 개인정보도 수집하지 않습니다.</p>
+
+      <h2>6. 변경</h2>
+      <p>앱의 기능이나 정보 처리 방식이 바뀌는 경우 이 페이지를 갱신합니다.</p>
+
+      <h2>7. 문의</h2>
+      <p>개인정보 처리방침에 대한 문의는 <a href="https://github.com/jungbtc/myeongjulbakgua-privacy/issues">GitHub Issues</a>를 이용해 주세요.</p>
+
+      <p class="updated">시행일: 2026년 9월 15일</p>
+    </section>
+
+    <section class="card english" lang="en" aria-labelledby="privacy-en">
+      <h2 id="privacy-en">Privacy Policy</h2>
+      <p>Myeongjeol Baekgwa does not collect, store, or transmit personal information. No account or sign-in is required.</p>
+      <ul>
+        <li>Family relationship selections and kinship calculations are processed only on the device.</li>
+        <li>The app contains no advertising, analytics, tracking SDKs, third-party sign-in, or in-app purchases.</li>
+        <li>Copying a greeting writes only the selected text to the device clipboard.</li>
+        <li>Sharing a result uses the iOS share sheet and occurs only when the user chooses a destination.</li>
+      </ul>
+      <p>Questions can be submitted through <a href="https://github.com/jungbtc/myeongjulbakgua-privacy/issues">GitHub Issues</a>.</p>
+      <p class="updated">Effective date: September 15, 2026</p>
+    </section>
+  </main>
+</body>
+</html>
